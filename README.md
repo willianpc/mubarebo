@@ -1,6 +1,6 @@
 # Mubarebo
 
-A generic project with RequireJS, Backbone and Bootstrap
+A generic project with Mustache, Backbone, RequireJS and Bootstrap
 
 ## What is this
 It is a kind of a "blank project" with all dependencies needed for a web project.
