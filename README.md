@@ -8,18 +8,17 @@ In my particular case, this is a set that I have been done over and over for eac
 
 I know, there are probably some (thousands of) tools around to make this task easier. But this seems more interesting for me, at least, at the moment.
 
-##What are these dependencies
+##How can Mubarebo help you
 As the very creative name says: **MU**stache, **BA**ckbone, **RE**quire and **BO**otstrap.
-
 All of them already set and ready to get things started.
 
 If you think this repo can help you somehow... well, here is how I see this happening: Let's say you are used to a set of tools **just like** this one. Jackpot! You can clone this and start coding right now.
 
 Now, let's suppose you like this stack, but you like Handlebars instead of Mustache. Oh well, why not clone this and make the single change you want.
 
-But, if you like most of, or the whole stack and you are not happy with the Grunt or Bower configuration files (unless a couple of changes can make you satisfied), then maybe this repo cannot be useful for you.
+But, if you like this stack and you are not happy with the either Grunt or Bower configuration files (unless a couple of changes can make you satisfied), then maybe this repo cannot be useful for you :(
 
-Anyway, I do hope that it can be cool for other people to use it, maybe fork it and make their own changes. Also, there must be something similar (and probably better) than this around the Github :D
+Anyway, I do hope that it can be cool for other people to use it, maybe fork it and make their own changes. Also, there must be something similar (and probably better) to this around the Github :D
 
 ##Getting started
 
