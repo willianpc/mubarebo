@@ -43,6 +43,10 @@ Here's everything you will need to get the project ready to start coding.
 git clone https://github.com/chambs/mubarebo.git
 cd mubarebo
 npm install
+#If you haven't installed Grunt yet
+npm install grunt -g
+#If you haven't installed Bower yet
+npm install bower -g
 bower install
 grunt preview
 ```
