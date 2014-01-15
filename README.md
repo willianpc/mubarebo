@@ -1,6 +1,6 @@
 # Mubarebo
 
-A generic project with Mustache, Backbone, RequireJS and Bootstrap
+A generic project with **Mu**stache, **Ba**ckbone, **Re**quireJS and **Bo**otstrap
 
 ## What is this
 It is kind of a "blank project's idea stolen from Struts Blank" with all dependencies needed for a web project.
@@ -9,7 +9,7 @@ In my particular case, this is a set that I have been done over and over for eac
 I know, there are probably some (thousands of) tools around to make this task easier. But this seems more interesting for me, at least, at the moment.
 
 ##What are these dependencies
-As the very creative name says: MUstache, BAckbone, REquire and BOotstrap.
+As the very creative name says: **MU**stache, **BA**ckbone, **RE**quire and **BO**otstrap.
 
 All of them already set and ready to get things started.
 
