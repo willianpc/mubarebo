@@ -20,3 +20,40 @@ Now, let's suppose you like this stack, but you like Handlebars instead of Musta
 But, if you like most of, or the whole stack and you are not happy with the Grunt or Bower configuration files (unless a couple of changes can make you satisfied), then maybe this repo cannot be useful for you.
 
 Anyway, I do hope that it can be cool for other people to use it, maybe fork it and make their own changes. Also, there must be something similar (and probably better) than this around the Github :D
+
+##Getting started
+
+Alright, if you've gone this far it might be fun idea to try and use it.
+The steps **should be** pretty straightforward:
+
+1. Clone the repository (duh)
+2. Install NodeJS dependencies
+3. Install Bower dependencies
+4. Copy Bower libraries to the ./lib directory
+5. Run a simple webserver and/or any other Grunt tasks you like
+6. Start coding
+
+If you are not familiar to the Grunt x Bower x Node gang, note that most of these steps will be executed only once.
+
+##The copy/paste tutorial
+
+Here's everything you will need to get the project ready to start coding.
+
+
+```shell
+git clone https://github.com/chambs/mubarebo.git
+cd mubarebo
+npm install
+bower install
+grunt bower
+grunt preview
+```
+
+After these steps, the only ones you will have to run again are these:
+
+```shell
+cd mubarebo
+grunt preview
+```
+
+Eventually, you will have to run `grunt bower` in order do copy any new libs you have installed with Bower, and, of course, you will have to import these libs into your HTML/JS files.
