@@ -45,7 +45,6 @@ git clone https://github.com/chambs/mubarebo.git
 cd mubarebo
 npm install
 bower install
-grunt bower
 grunt preview
 ```
 
