@@ -3,7 +3,7 @@
 A generic project with Mustache, Backbone, RequireJS and Bootstrap
 
 ## What is this
-It is a kind of a "blank project" with all dependencies needed for a web project.
+It is kind of a "blank project's idea stolen from Struts Blank" with all dependencies needed for a web project.
 In my particular case, this is a set that I have been done over and over for each project, so I decided to make some kind of all-in-one-grunt-bower-project with all stuff already set and ready to code.
 
 I know, there are probably some (thousands of) tools around to make this task easier. But this seems more interesting for me, at least, at the moment.
