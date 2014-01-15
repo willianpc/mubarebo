@@ -1,0 +1,36 @@
+{
+  "name": "generic-project",
+  "dependencies": {
+    "requirejs": "~2.1.5",
+    "jquery": ">= 1.8.0",
+    "bootstrap": "~3.0.3",
+    "backbone": "~1.1.0",
+    "underscore": "~1.5.2",
+    "mustache": "~0.8.1"
+  },
+  "devDependencies": {
+    "qunit": "~1.13.0"
+  },
+  "exportsOverride": {
+    "requirejs": {
+      "js": "require.js"
+    },
+    "jquery": {
+      "js": "jquery.min.js"
+    },
+    "bootstrap": {
+      "js": "dist/js/bootstrap.min.js",
+      "css": "dist/css/*min.css"
+    },
+    "backbone": {
+      "js": "backbone-min.js"
+    },
+    "qunit": {},
+    "underscore": {
+      "js": "underscore-min.js"
+    },
+    "mustache": {
+      "js": "mustache.js"
+    }
+  }
+}
