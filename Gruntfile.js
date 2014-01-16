@@ -99,6 +99,7 @@ module.exports = function(grunt) {
       development: {
         options: {
           keepalive: true,
+          hostname: '*'
         }
       },
       production: {
