@@ -3,10 +3,45 @@
 <head>
   <meta charset="utf-8">
   <title>A generic project with RequireJS, Backbone and Bootstrap</title>
+  <link rel="stylesheet" type="text/css" href="lib/css/bootstrap/bootstrap.min.css"/>
+  <link rel="stylesheet" type="text/css" href="lib/css/bootstrap/bootstrap-theme.min.css"/>
 </head>
 <body>
-  <h1>MUBAREBO Blank Project</h1>
-  <h2>The blank Mustache, Backbone, Require, Bootstrap Project</h2>
+
+ <!-- Static navbar -->
+  <div class="navbar navbar-inverse navbar-static-top" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">MUBAREBO Blank Project</a>
+      </div>
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+        </ul>
+      </div><!--/.nav-collapse -->
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-2"></div>
+      <div class="col-md-8">
+        <div class="jumbotron">
+          <h2>MUBAREBO Blank Project</h2>
+          <h3>The blank Mustache, Backbone, Require, Bootstrap Project</h3>
+        </div>
+      </div>
+      <div class="col-md-2"></div>
+    </div>
+  </div>
+
   <script data-main="app/config" src="lib/js/requirejs/require.js"></script>
 </body>
 </html>
